@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动与定位</title>
+    <style>
+        .header,.footer,.leftaside,.rightaside,.section{
+           border: 1px solid black;
+           background-color: rgb(0, 204, 255); 
+        }
+        .header,.footer{
+            height: 150px;
+        }
+        .leftaside{
+            height: 450px;
+            width: 300px;
+            float: left;
+            margin: 5px;
+            }
+        .rightaside{
+            height: 450px;
+            width: 300px;
+            float: right;
+        }
+        .section{
+            height: 450px;
+        }
+        .float-div{
+            background-color: grey;
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            left: 700px;
+            top: 350px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">header</header>
+    <aside class="leftaside">aside</aside>
+    <aside class="rightaside">aside</aside>
+    <section class="section">section</section>
+    <footer class="footer">footer</footer>
+    <div class="float-div">floatdiv</div>
+    
+</body>
+</html>
